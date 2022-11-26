@@ -43,6 +43,6 @@ async def check_person(person_request: schemas.PersonCreate, db: Session = Depen
     return await checking.matching()
 
 
-if __name__ == "__main__":
-    uvicorn.run("main:app", port=9000, reload=True)
+#if __name__ == "__main__":
+    #uvicorn.run("main:app", port=9000, reload=True)
     
