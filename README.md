@@ -57,7 +57,7 @@ To run units and integration tests move in the root directory and run:
 
 ```
 pytest
-
+```
 
 ## Docker
 
