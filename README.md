@@ -22,7 +22,7 @@ The matching logic should work in the following way:
 - `sql_app`: contains files db.py, which is for integrating database with our application.
 models.py, which is for creating database model, Person.
 repositories.py that contains some reusable functions to interact with the data in the database. schemas.py will contain the Pydantic models for our SQLAlchemy models.
- 
+
 - `fraud_detection`: in this project, I implemented the strategy for checking fraud by using strategy design pattern. Although at this moment there is only one strategy for checking fraud, we can easily add more strategies or modify the existing ones.
 
 ## Installation
@@ -40,7 +40,6 @@ pipenv shell --python 3.7
 Install project dependencies requirement.txt
 ```
 pip3 install -r requirements.txt
-```
 
 ## Usage
 
@@ -51,17 +50,15 @@ uvicorn main:app --reload
 
 you can visit http://localhost:8000/docs to see your API docs.
 
-```
-
-### Tests
+## Tests
 
 To run units and integration tests move in the root directory and run:
 
 ```
 pytest
-```
 
-# Docker
+
+## Docker
 
 To run the app in docker, go to the root directory and simply run:
 
