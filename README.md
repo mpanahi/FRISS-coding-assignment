@@ -40,6 +40,7 @@ pipenv shell --python 3.7
 Install project dependencies requirement.txt
 ```
 pip3 install -r requirements.txt
+```
 
 ## Usage
 
